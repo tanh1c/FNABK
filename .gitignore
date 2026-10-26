@@ -1,0 +1,24 @@
+# Roblox / Rojo generated places and backups
+/build/
+/dist/
+/tmp/
+/*.rbxl
+/*.rbxlx
+/*.rbxl.lock
+/*.rbxlx.lock
+*.rbxl~
+*.rbxlx~
+# Tools
+/.rokit/
+/.vscode/settings.json
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+# Never commit secrets
+.env
+.env.*
+!.env.example
+*.cookie
+*.token
