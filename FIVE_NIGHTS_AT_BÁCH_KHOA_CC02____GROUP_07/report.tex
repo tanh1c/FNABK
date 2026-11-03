@@ -1,0 +1,96 @@
+% !TeX program = pdflatex
+% !BIB program = bibtex
+% Overleaf: set Main document = report.tex; Compiler = pdfLaTeX
+\documentclass[oneside,final]{hcmut-report}
+
+% ---- Additional packages (template class and logo retained) ----
+\usepackage{array,tabularx,longtable,multirow,booktabs,makecell}
+\usepackage[table]{xcolor}
+\usepackage{float,caption,subcaption}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,shadows.blur,fit,calc,backgrounds}
+\usepackage[most]{tcolorbox}
+\usepackage[expansion=false]{microtype}
+\usepackage{ragged2e}
+\usepackage{needspace}
+\usepackage{lastpage}
+\usepackage{fancyvrb}
+\usepackage{fvextra}
+\usepackage{url}
+\usepackage{placeins}
+\usepackage{etoolbox}
+\usepackage{calc}
+\usepackage{pdflscape}
+
+\definecolor{night}{HTML}{132437}
+\definecolor{navy}{HTML}{203E55}
+\definecolor{bluegray}{HTML}{55728A}
+\definecolor{teal}{HTML}{1D907F}
+\definecolor{mint}{HTML}{DCEFEA}
+\definecolor{amber}{HTML}{C6954B}
+\definecolor{paperblue}{HTML}{F1F5F7}
+\definecolor{slate}{HTML}{47576A}
+\definecolor{softred}{HTML}{9F514D}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=bluegray,bookmarksopen=true,pdftitle={Five Nights at Bach Khoa - Game Design Document - Survival},pdfauthor={Group 07 - CC02 - CO3045},pdfsubject={English-language Game Design Document}}
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\listfigurename}{List of Figures}
+\renewcommand{\listtablename}{List of Tables}
+\renewcommand{\refname}{References}
+\captionsetup{font=small,labelfont={bf,color=navy},textfont=it}
+\setlist[itemize]{leftmargin=1.6em,itemsep=2pt,topsep=3pt}
+\setlist[enumerate]{leftmargin=1.7em,itemsep=2pt,topsep=3pt}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{1.1cm}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.22}
+\setstretch{1.24}
+\setlength{\headheight}{44pt}
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{2}
+\emergencystretch=2em
+\newcolumntype{L}{>{\RaggedRight\arraybackslash}X}
+\newcolumntype{C}{>{\Centering\arraybackslash}X}
+\newcommand{\field}[1]{\textbf{\color{navy}#1}}
+\newcommand{\mvp}{\textsf{\color{teal}[MVP]}}
+\newcommand{\optional}{\textsf{\color{amber}[OPTIONAL]}}
+\newcommand{\gddcaption}[1]{\footnotesize\color{slate}#1}
+\newtcolorbox{designbox}[1][]{enhanced,breakable,colback=paperblue,colframe=navy!34,arc=1.5mm,boxrule=.45pt,left=3mm,right=3mm,top=2mm,bottom=2mm,before skip=7pt,after skip=7pt,#1}
+\newtcolorbox{keybox}[1][]{enhanced,breakable,colback=mint,colframe=teal!60,arc=1.5mm,boxrule=.65pt,left=3mm,right=3mm,top=2mm,bottom=2mm,before skip=7pt,after skip=7pt,#1}
+\newcommand{\tablehead}[1]{\rowcolor{night}\color{white}\textbf{#1}}
+\newcommand{\workcaption}[1]{\par\smallskip{\footnotesize\color{slate}\textit{#1}}}
+\newcommand{\graphic}[4]{%
+  \begin{figure}[H]\centering
+  \includegraphics[width=#2\linewidth,keepaspectratio]{assets/#1}
+  \caption{#3}\label{#4}
+  \end{figure}}
+\newcommand{\tikzgraphic}[4]{%
+  \begin{figure}[H]\centering
+  \resizebox{#2\linewidth}{!}{\input{diagrams/#1}}
+  \caption{#3}\label{#4}
+  \end{figure}}
+
+% ---- Source HCMUT template cover macros, filled with real information ----
+\coursename{Game Programming (CO3045)}
+\reporttype{ASSIGNMENT 01 -- GAME DESIGN DOCUMENT}
+\title{FIVE NIGHTS AT BÁCH KHOA\\[2mm]\small CC02 -- GROUP 07}
+\advisor{& Phan Trần Minh Khuê &}
+\stuname{%
+  & Vũ Hải Tuấn & 2353280 \\
+  & Chu Nguyễn Tuấn Anh & 2352022 \\
+  & Lê Hoàng Chí Vĩ & 2353336 \\
+}
+\reportplace{Ho Chi Minh City}
+\reporttime{HK261 -- 2026}
+
+\begin{document}
+\coverpage
+\begin{center}
+ {\large\bfseries\color{navy}GAME PROGRAMMING (CO3045) \textendash{} CC02 \textendash{} GROUP 07}\\[3pt]
+ {\small\color{slate}Instructor: Phan Trần Minh Khuê \quad|\quad Semester: HK261\\ Survival revision 1.1 -- 3 November 2026}
+\end{center}
+
+\tableofcontents
+\clearpage
+\input{chapters/submission_gdd}
+\end{document}
