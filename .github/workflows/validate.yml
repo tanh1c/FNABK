@@ -14,15 +14,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for p in README.md AGENTS.md rokit.toml default.project.json docs/GDD.md docs/ACCEPTANCE.md docs/ARCHITECTURE.md docs/SETUP.md docs/WORKFLOW.md src/shared/GameConfig.luau; do test -s "$p" || { echo "Missing: $p"; exit 1; }; done
+          for p in README.md AGENTS.md rokit.toml default.project.json docs/GDD.md docs/ACCEPTANCE.md docs/ARCHITECTURE.md docs/SETUP.md docs/WORKFLOW.md docs/archive/A01_GDD.md docs/archive/A01_ACCEPTANCE.md src/shared/GameConfig.luau; do test -s "$p" || { echo "Missing: $p"; exit 1; }; done
           python3 -m json.tool default.project.json >/dev/null
           python3 - <<'PY'
           from pathlib import Path
-          content=Path("docs/ACCEPTANCE.md").read_text()
-          for n in range(1,12):
-              assert f"AC-{n:02d}" in content, f"Missing AC-{n:02d}"
-          spec=Path("docs/GDD.md").read_text()
-          for x in ["Disguise", "Suspicious", "Chase", "Attack", "Search", "Stunned", "Defeated"]:
+          content=Path("docs/ACCEPTANCE.md").read_text(encoding="utf-8-sig")
+          for n in range(1,14):
+              assert f"SURV-{n:02d}" in content, f"Missing SURV-{n:02d}"
+          spec=Path("docs/GDD.md").read_text(encoding="utf-8-sig")
+          for x in ["Disguise", "Investigate", "Chase", "Attack", "Search", "Stunned", "Defeated"]:
               assert x in spec, f"Missing AI state {x}"
-          print("Structure and GDD traceability OK. Roblox Studio gameplay NOT tested.")
+          assert "five-day" in spec.lower() or "five day" in spec.lower()
+          print("Structure and survival design traceability OK. Roblox Studio gameplay NOT tested.")
           PY

@@ -1,0 +1,2 @@
+-- SURV-05: Roblox's default Health script regenerates faster than starvation damage.
+-- This named script replaces default regeneration; game services handle healing.

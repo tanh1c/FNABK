@@ -1,0 +1,48 @@
+-- Studio server command bar after syncing source with Rojo; does not modify the world.
+local Inventory = require(game.ServerScriptService.FNABKServer.Inventory)
+local slots = Inventory.new()
+for i = 1, 6 do assert(Inventory.add(slots, { id = "food" .. i, kind = "Food" })) end
+assert(#slots == 2 and #slots[1] == 5 and #slots[2] == 1)
+assert(not Inventory.add(slots, { id = "food1", kind = "Water" }))
+for i, kind in ipairs({ "Water", "Medkit", "Scrap", "Electronics", "Cloth", "PistolAmmo" }) do
+	assert(Inventory.add(slots, { id = "other" .. i, kind = kind, rounds = if kind == "PistolAmmo" then 8 else nil }))
+end
+assert(#slots == 8)
+assert(not Inventory.add(slots, { id = "full", kind = "RifleAmmo", rounds = 30 }))
+assert(Inventory.add(slots, { id = "food7", kind = "Food" }))
+local snapshot = Inventory.snapshot(slots)
+snapshot[8][1].rounds = 0
+assert(slots[8][1].rounds == 8)
+local box = Inventory.remove(slots, 8, 1)
+assert(box and box.rounds == 8 and #slots == 7)
+assert(not Inventory.add(slots, { id = "bad", kind = "ShotgunAmmo", rounds = 11 }))
+assert(not Inventory.remove(slots, 0, 1))
+assert(Inventory.count(slots, "Medkit") == 1)
+local medkit = Inventory.removeFirst(slots, "Medkit")
+assert(medkit and medkit.kind == "Medkit" and Inventory.count(slots, "Medkit") == 0)
+assert(Inventory.removeFirst(slots, "Medkit") == nil)
+local visible = Inventory.summary(slots)
+assert(#visible == #slots and visible[1].kind == "Food" and visible[1].count == 5)
+assert(visible[1].id == nil and visible[1][1] == nil)
+visible[1].count = 99
+assert(#slots[1] == 5)
+local source, destination = Inventory.new(), Inventory.new()
+assert(Inventory.add(source, { id = "partial", kind = "PistolAmmo", rounds = 8 }))
+assert(Inventory.transfer(source, destination, 1, 1))
+assert(#source == 0 and destination[1][1].id == "partial" and destination[1][1].rounds == 8)
+assert(not Inventory.transfer(destination, destination, 1, 1))
+local full = Inventory.new()
+for _, kind in ipairs({ "Food", "Water", "Medkit", "Scrap", "Electronics", "Cloth", "ShotgunAmmo", "RifleAmmo" }) do
+	assert(Inventory.add(full, { id = kind, kind = kind, rounds = if kind == "ShotgunAmmo" then 10 elseif kind == "RifleAmmo" then 30 else nil }))
+end
+assert(not Inventory.transfer(destination, full, 1, 1))
+assert(destination[1][1].id == "partial" and #full == 8)
+assert(Inventory.add(destination, { id = "fits", kind = "Food" }))
+assert(Inventory.transferFirstFitting(destination, full))
+assert(#destination == 1 and destination[1][1].id == "partial" and Inventory.count(full, "Food") == 2)
+assert(not Inventory.transferFirstFitting(destination, full) and destination[1][1].rounds == 8)
+local boxes = Inventory.new()
+assert(Inventory.add(boxes, { id = "full", kind = "RifleAmmo", rounds = 30 }))
+assert(Inventory.add(boxes, { id = "empty", kind = "RifleAmmo", rounds = 0 }))
+assert(Inventory.summary(boxes)[1].empty == 1 and Inventory.summary(boxes)[1].count == 2)
+print("Inventory checks passed")

@@ -1,0 +1,11 @@
+local inventory = require(game.ServerScriptService.FNABKServer.Inventory)
+local storage, player = inventory.new(), inventory.new()
+for i = 1, 40 do assert(inventory.add(storage, { id = "s" .. i, kind = "Food" })) end
+assert(inventory.add(player, { id = "extra", kind = "Water" }))
+assert(not inventory.transfer(player, storage, 1, 1, 8))
+assert(inventory.count(player, "Water") == 1)
+assert(inventory.transfer(player, storage, 1, 1, 16))
+assert(#storage == 9 and inventory.count(storage, "Water") == 1)
+assert(inventory.transfer(storage, player, 9, 1))
+assert(inventory.count(player, "Water") == 1)
+print("Storage capacity check passed")

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "previewStudsPerPixel": 1.0,
+  "metersPerPixel": null,
+  "geographicNorthAlignment": null,
+  "realWorldMetricCalibration": null,
+  "sourceImage": {
+    "widthPx": 1448,
+    "heightPx": 1086
+  },
+  "origin": {
+    "sourcePixel": [
+      1448,
+      1086
+    ],
+    "localRobloxStuds": [
+      0,
+      0
+    ],
+    "meaning": "image bottom-right maps to local Roblox origin"
+  },
+  "axes": {
+    "horizontalMirrorApplied": true,
+    "localPlusX": "image left after horizontal mirror",
+    "localPlusZ": "image up (pixel Y is inverted)",
+    "noNorthClaim": true
+  },
+  "formula": {
+    "xStuds": "(imageWidthPx - pixelX) * previewStudsPerPixel",
+    "zStuds": "(imageHeightPx - pixelY) * previewStudsPerPixel"
+  },
+  "rounding": "transformed coordinates rounded to 1e-6 studs; canonical pixel vertices are unchanged",
+  "scaleSource": "user-approved provisional visualization scale; independent of prior v6/v7 coordinates",
+  "sourceGeometrySHA256": "149e7ecbc243138a413dcecc9dd82dbd80a14427944784075689a60bff63fa10",
+  "adjustmentOverlay": {
+    "file": "GeometryAdjustments.json",
+    "sha256": "c11ee3213525633302723ab2f48bbc23d4d5c65b76c936a95f62e16fde2e95f1"
+  }
+}

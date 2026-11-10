@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "sourceGeometryFile": "CampusPixelGeometry.json",
+  "scope": "Only the detached FNABK_Campus_PixelPreview_v1. Canonical source pixels remain unchanged.",
+  "adjustments": [
+    {
+      "id": "B9",
+      "operation": "replacePolygonPixels",
+      "expectedSourcePolygonPixels": [
+        [776.1, 440.3],
+        [992.8, 438],
+        [992.8, 484],
+        [776.1, 484.5]
+      ],
+      "polygonPixels": [
+        [776.1, 445.5],
+        [992.8, 444.556024],
+        [993.433803, 489.556024],
+        [776.733803, 490.5]
+      ],
+      "targetGapFromB8Pixels": 6,
+      "reason": "User requested B8 and B9 be separated slightly and aligned parallel after observing overlap. B9 is translated and reoriented to B8's long-edge angle; its footprint remains a separate polygon."
+    },
+    {
+      "id": "Entrance1",
+      "operation": "translateMarkerPixels",
+      "expectedSourcePositionPixels": [166, 492.3],
+      "deltaPixels": [12, 0],
+      "positionPixels": [178, 492.3],
+      "reason": "User requested Entrance1 move a little to the right."
+    },
+    {
+      "id": "Canteen",
+      "operation": "overrideCategory",
+      "expectedSourceCategory": "area",
+      "category": "building",
+      "reason": "User confirmed Canteen is a distinct building adjacent to B4, not the same building. The canonical source category is retained separately."
+    }
+  ]
+}

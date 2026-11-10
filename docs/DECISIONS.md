@@ -167,3 +167,19 @@
 - Development effort / risks: Counts apply to this detached preview and do not change the authoritative GDD or runtime gameplay. Floor heights, interiors, footprints, and pixel scale remain estimates; C1's upper floor is a partial inspection/service deck. Visual approval and player traversal remain pending.
 - Validation evidence: Studio Edit created v3 from a fresh manifest ModuleScript snapshot at `(1200, 0, 1200)`. It reports `HorizontalMirrorApplied=true`, 23 building Models, 19,055 BaseParts, zero unanchored parts, zero scripts, and six B1 floor connectors. World-space bounds from all BasePart corners match B1's three clustered polygon rectangles: the two arms and crossbar share the same seam edges; five courtyard-center samples were not occupied. All 23 `ConfirmedStories` attributes match the user table. C1/C2/C3 have the requested mechanical/mechatronics architecture attributes. Studio screen capture returned a blank viewport, so visual review and avatar traversal remain pending in flows #17–#18.
 - Approval decision: The user supplied the floor counts and directly requested the B1 and workshop corrections. This authorizes a new detached Edit-mode preview only; saving, runtime integration, publication, asset upload, and cloud generation remain outside scope.
+
+### CR-015: Increase prototype baton range
+- User-requested change: increase the prototype baton range from the GDD proposal of 4.5 to 7 studs (SURV-08). Keep server validation and the 0.85-second attack interval; remove the misleading recharging message.
+- Evidence: Studio single-player tests damaged a test target at 6 studs and rejected a target at 8 studs. Balance, animation appearance and multiplayer remain to be tested. Student-team review and GDD reconciliation remain pending.
+
+### CR-016: Temporary wave withdrawal presentation
+- SURV-02/11: the prototype dissolves retreating enemies in place over two seconds and removes them afterward. This does not fulfill the selected physical retreat and visibility-based stuck recovery.
+- Reason: provide visible feedback and preserve the active count while retreat navigation and exit points are unfinished. Studio server checks verified the fade, removal and preservation of defeated state; visual quality and multiplayer remain unverified.
+- Required follow-up: implement actual withdrawal and appropriate stuck-enemy fallback; student-team review remains pending.
+- Update 2026-11-08: enemies move toward an outward point when the direct route is clear before dissolving. Obstructed routes still dissolve in place without player-visibility checks; pathfinding and exit selection remain required.
+- Further update 2026-11-08: retreat attempts one path around an obstacle before the bounded fallback. One isolated Studio wall test passed; visibility-aware removal, reliable exit selection and full-map validation remain required.
+- Further update: at a new grace-wave start, any remaining old attackers are removed before spawning and shown a brief effect. The effect is currently used regardless of visibility; selected out-of-view recovery and multiplayer visual checks remain open.
+
+### CR-017: No-base wave fallback
+- 2026-11-09 (SURV-02/11): when no building has been selected, prototype waves spawn around the initial player spawn instead of being skipped; this does not claim a base. This fills an unspecified no-base case and needs student-team review, route and balance testing. If a selected base is invalid or the initial spawn is missing, the wave still reports an error. No course or team approval is implied.
+- `tests/WaveNoBase.check.luau` passed in solo Studio Play on a temporary map; Rojo build passed. Real campus wave placement, party scaling, safety and the full schedule remain unverified.

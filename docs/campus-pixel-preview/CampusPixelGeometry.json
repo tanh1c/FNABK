@@ -1,0 +1,1627 @@
+{
+  "schemaVersion": 1,
+  "status": "PIXEL_GEOMETRY_UNCALIBRATED",
+  "source": {
+    "imageFile": "HCMUT_generated_schematic_lowpoly_v2.png",
+    "widthPx": 1448,
+    "heightPx": 1086,
+    "provenance": "AI-generated diagram; not surveyed, not a verified campus plan"
+  },
+  "coordinateSystem": {
+    "units": "pixels",
+    "origin": "top-left",
+    "xAxis": "right",
+    "yAxis": "down",
+    "worldCalibration": null,
+    "metersPerPixel": null,
+    "northAngleDegrees": null
+  },
+  "features": [
+    {
+      "id": "CampusBoundary",
+      "category": "boundary",
+      "polygonPixels": [
+        [
+          109.5,
+          733.3
+        ],
+        [
+          205.8,
+          330.6
+        ],
+        [
+          352.9,
+          331.6
+        ],
+        [
+          356.9,
+          298
+        ],
+        [
+          494.2,
+          295.6
+        ],
+        [
+          494.6,
+          217.1
+        ],
+        [
+          1200.1,
+          121.5
+        ],
+        [
+          1275.7,
+          107.1
+        ],
+        [
+          1411.3,
+          584.8
+        ],
+        [
+          1408.9,
+          732.5
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B1",
+      "category": "building",
+      "polygonPixels": [
+        [
+          220.7,
+          561.8
+        ],
+        [
+          360.4,
+          561.8
+        ],
+        [
+          361.4,
+          717.1
+        ],
+        [
+          324.9,
+          717.1
+        ],
+        [
+          325.6,
+          596.3
+        ],
+        [
+          257.2,
+          596.3
+        ],
+        [
+          256.8,
+          717.1
+        ],
+        [
+          221,
+          716.2
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "B1 U-shaped polygon; hand-trace corners"
+    },
+    {
+      "id": "B2",
+      "category": "building",
+      "polygonPixels": [
+        [
+          371.5,
+          596
+        ],
+        [
+          484.2,
+          596
+        ],
+        [
+          483.6,
+          652
+        ],
+        [
+          371.5,
+          650.4
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B3",
+      "category": "building",
+      "polygonPixels": [
+        [
+          235.6,
+          406.1
+        ],
+        [
+          375.5,
+          406.1
+        ],
+        [
+          374.5,
+          446.6
+        ],
+        [
+          235.3,
+          443.9
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B4",
+      "category": "building",
+      "polygonPixels": [
+        [
+          365.6,
+          334.2
+        ],
+        [
+          511.4,
+          332.2
+        ],
+        [
+          511.1,
+          397.8
+        ],
+        [
+          366.9,
+          397.5
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "B4 appears combined with canteen in generated source; verify label against original plans"
+    },
+    {
+      "id": "B6",
+      "category": "building",
+      "polygonPixels": [
+        [
+          515,
+          296.4
+        ],
+        [
+          638,
+          296.1
+        ],
+        [
+          637.4,
+          349.1
+        ],
+        [
+          515.4,
+          348.8
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "A1",
+      "category": "building",
+      "polygonPixels": [
+        [
+          582.2,
+          581.4
+        ],
+        [
+          711.8,
+          580.6
+        ],
+        [
+          711.4,
+          626.1
+        ],
+        [
+          582.2,
+          626.9
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "A2",
+      "category": "building",
+      "polygonPixels": [
+        [
+          667,
+          487.5
+        ],
+        [
+          688.8,
+          487.5
+        ],
+        [
+          711.4,
+          487.5
+        ],
+        [
+          730.4,
+          486.3
+        ],
+        [
+          730,
+          563.9
+        ],
+        [
+          614.7,
+          563.1
+        ],
+        [
+          613.9,
+          487.5
+        ],
+        [
+          642,
+          487.9
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "A3",
+      "category": "building",
+      "polygonPixels": [
+        [
+          941.3,
+          524.2
+        ],
+        [
+          1087.1,
+          524.6
+        ],
+        [
+          1088.9,
+          633.9
+        ],
+        [
+          941.3,
+          635.2
+        ],
+        [
+          942.2,
+          605
+        ],
+        [
+          941.3,
+          590.1
+        ],
+        [
+          942.2,
+          579.7
+        ],
+        [
+          942.6,
+          568.4
+        ],
+        [
+          942.6,
+          547.2
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "A4",
+      "category": "building",
+      "polygonPixels": [
+        [
+          684,
+          355.9
+        ],
+        [
+          727.8,
+          356.3
+        ],
+        [
+          726.5,
+          455.1
+        ],
+        [
+          684.5,
+          455.6
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "A5",
+      "category": "building",
+      "polygonPixels": [
+        [
+          587,
+          397.4
+        ],
+        [
+          668.3,
+          397.8
+        ],
+        [
+          667.8,
+          458.3
+        ],
+        [
+          587,
+          457.4
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B8",
+      "category": "building",
+      "polygonPixels": [
+        [
+          773.9,
+          410.9
+        ],
+        [
+          980.6,
+          410
+        ],
+        [
+          981,
+          438.4
+        ],
+        [
+          774.8,
+          438.9
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B9",
+      "category": "building",
+      "polygonPixels": [
+        [
+          776.1,
+          440.3
+        ],
+        [
+          992.8,
+          438
+        ],
+        [
+          992.8,
+          484
+        ],
+        [
+          776.1,
+          484.5
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B11",
+      "category": "building",
+      "polygonPixels": [
+        [
+          957.1,
+          312.1
+        ],
+        [
+          988.2,
+          313
+        ],
+        [
+          988.2,
+          400.5
+        ],
+        [
+          956.6,
+          400.5
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "B12",
+      "category": "building",
+      "polygonPixels": [
+        [
+          949.9,
+          283.6
+        ],
+        [
+          1000.9,
+          281.8
+        ],
+        [
+          1000.9,
+          311.6
+        ],
+        [
+          949.9,
+          311.2
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "C1",
+      "category": "building",
+      "polygonPixels": [
+        [
+          610.5,
+          232.2
+        ],
+        [
+          986.4,
+          231.7
+        ],
+        [
+          986.9,
+          257.5
+        ],
+        [
+          610.5,
+          255.7
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "C2",
+      "category": "building",
+      "polygonPixels": [
+        [
+          996.8,
+          363.5
+        ],
+        [
+          1227.9,
+          360.8
+        ],
+        [
+          1227.4,
+          400.1
+        ],
+        [
+          996.8,
+          399.6
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "C3",
+      "category": "building",
+      "polygonPixels": [
+        [
+          995.5,
+          321.1
+        ],
+        [
+          1225.6,
+          319.8
+        ],
+        [
+          1225.6,
+          349.5
+        ],
+        [
+          995.5,
+          348.6
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "C4",
+      "category": "building",
+      "polygonPixels": [
+        [
+          1064.3,
+          238.7
+        ],
+        [
+          1227.5,
+          238.7
+        ],
+        [
+          1227.5,
+          280
+        ],
+        [
+          1064.3,
+          278.7
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "C5",
+      "category": "building",
+      "polygonPixels": [
+        [
+          1065.3,
+          193.7
+        ],
+        [
+          1227.5,
+          192.8
+        ],
+        [
+          1227.5,
+          224.7
+        ],
+        [
+          1064.8,
+          224.7
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "C6",
+      "category": "building",
+      "polygonPixels": [
+        [
+          1065.7,
+          153.3
+        ],
+        [
+          1227.1,
+          151.5
+        ],
+        [
+          1226.6,
+          178
+        ],
+        [
+          1065.3,
+          178.4
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "FootballField",
+      "category": "area",
+      "polygonPixels": [
+        [
+          375,
+          469.6
+        ],
+        [
+          568.6,
+          470.2
+        ],
+        [
+          568.9,
+          583.9
+        ],
+        [
+          375,
+          584.5
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "EastPlaza",
+      "category": "area",
+      "polygonPixels": [
+        [
+          1116.2,
+          531.1
+        ],
+        [
+          1290.8,
+          529.8
+        ],
+        [
+          1289.4,
+          649.2
+        ],
+        [
+          1117.6,
+          650.6
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "Facility7",
+      "category": "building",
+      "polygonPixels": [
+        [
+          1033.8,
+          436.9
+        ],
+        [
+          1253.1,
+          438.3
+        ],
+        [
+          1253.1,
+          482.9
+        ],
+        [
+          1033.8,
+          481.6
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "KioskOISP",
+      "category": "building",
+      "polygonPixels": [
+        [
+          530.9,
+          666
+        ],
+        [
+          682.4,
+          664.6
+        ],
+        [
+          682.4,
+          714.9
+        ],
+        [
+          530.9,
+          712.1
+        ]
+      ],
+      "confidence": "rough_manual_seed_needs_tracing",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Rough starter polygon; verify all vertices."
+    },
+    {
+      "id": "grass",
+      "category": "area",
+      "polygonPixels": [
+        [
+          290.24,
+          467.64
+        ],
+        [
+          290.7,
+          499.6
+        ],
+        [
+          359.51,
+          499.57
+        ],
+        [
+          359.51,
+          468.09
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass1",
+      "category": "area",
+      "polygonPixels": [
+        [
+          223.22,
+          507.22
+        ],
+        [
+          223.22,
+          549.95
+        ],
+        [
+          359.06,
+          549.5
+        ],
+        [
+          358.61,
+          507.22
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass2",
+      "category": "area",
+      "polygonPixels": [
+        [
+          267.3,
+          606.62
+        ],
+        [
+          266.85,
+          713.66
+        ],
+        [
+          315.43,
+          713.66
+        ],
+        [
+          313.63,
+          606.62
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass3",
+      "category": "area",
+      "polygonPixels": [
+        [
+          211.08,
+          506.32
+        ],
+        [
+          211.08,
+          576.48
+        ],
+        [
+          157.56,
+          576.93
+        ],
+        [
+          173.75,
+          506.32
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass4",
+      "category": "area",
+      "polygonPixels": [
+        [
+          371.2,
+          653.84
+        ],
+        [
+          371.2,
+          696.12
+        ],
+        [
+          485.44,
+          696.57
+        ],
+        [
+          485.89,
+          652.49
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass5",
+      "category": "area",
+      "polygonPixels": [
+        [
+          390.09,
+          407.37
+        ],
+        [
+          435.97,
+          406.47
+        ],
+        [
+          435.52,
+          433
+        ],
+        [
+          391.44,
+          457.29
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass6",
+      "category": "area",
+      "polygonPixels": [
+        [
+          413.03,
+          460.89
+        ],
+        [
+          491.74,
+          461.34
+        ],
+        [
+          491.29,
+          419.51
+        ],
+        [
+          483.64,
+          419.06
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass7",
+      "category": "area",
+      "polygonPixels": [
+        [
+          502.09,
+          419.96
+        ],
+        [
+          502.99,
+          459.09
+        ],
+        [
+          573.6,
+          459.99
+        ],
+        [
+          573.15,
+          404.67
+        ],
+        [
+          538.07,
+          419.96
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass8",
+      "category": "area",
+      "polygonPixels": [
+        [
+          524.12,
+          360.14
+        ],
+        [
+          523.67,
+          408.27
+        ],
+        [
+          534.47,
+          408.27
+        ],
+        [
+          599.24,
+          380.38
+        ],
+        [
+          600.14,
+          361.49
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass9",
+      "category": "area",
+      "polygonPixels": [
+        [
+          614.98,
+          360.14
+        ],
+        [
+          614.53,
+          386.68
+        ],
+        [
+          673.45,
+          384.88
+        ],
+        [
+          674.8,
+          359.69
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "OpenField",
+      "category": "area",
+      "polygonPixels": [
+        [
+          648.71,
+          268.83
+        ],
+        [
+          648.71,
+          347.55
+        ],
+        [
+          722.93,
+          347.99
+        ],
+        [
+          722.93,
+          268.38
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass10",
+      "category": "area",
+      "polygonPixels": [
+        [
+          762.06,
+          363.74
+        ],
+        [
+          762.51,
+          404.67
+        ],
+        [
+          918.13,
+          403.32
+        ],
+        [
+          917.23,
+          364.19
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "SportArea",
+      "category": "area",
+      "polygonPixels": [
+        [
+          760.26,
+          269.28
+        ],
+        [
+          760.71,
+          348.44
+        ],
+        [
+          918.13,
+          347.1
+        ],
+        [
+          919.03,
+          267.03
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "Parking",
+      "category": "area",
+      "polygonPixels": [
+        [
+          240.33,
+          341.17
+        ],
+        [
+          238.29,
+          396.28
+        ],
+        [
+          344.43,
+          398.32
+        ],
+        [
+          343.92,
+          342.19
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "Parking2",
+      "category": "area",
+      "polygonPixels": [
+        [
+          154.6,
+          589.67
+        ],
+        [
+          121.43,
+          723.88
+        ],
+        [
+          209.71,
+          725.92
+        ],
+        [
+          211.24,
+          590.69
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass11",
+      "category": "area",
+      "polygonPixels": [
+        [
+          516.9,
+          596.82
+        ],
+        [
+          517.41,
+          637.13
+        ],
+        [
+          569.97,
+          637.13
+        ],
+        [
+          570.48,
+          597.33
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass12",
+      "category": "area",
+      "polygonPixels": [
+        [
+          704.69,
+          660.09
+        ],
+        [
+          706.22,
+          716.73
+        ],
+        [
+          754.69,
+          718.26
+        ],
+        [
+          756.22,
+          658.05
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass13",
+      "category": "area",
+      "polygonPixels": [
+        [
+          719.48,
+          595.29
+        ],
+        [
+          719.48,
+          645.8
+        ],
+        [
+          754.69,
+          645.29
+        ],
+        [
+          755.71,
+          593.76
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass14",
+      "category": "area",
+      "polygonPixels": [
+        [
+          995.95,
+          237.69
+        ],
+        [
+          995.95,
+          273.4
+        ],
+        [
+          1035.45,
+          273.4
+        ],
+        [
+          1035.8,
+          237.2
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "StudentSpace",
+      "category": "area",
+      "polygonPixels": [
+        [
+          1032.92,
+          154.92
+        ],
+        [
+          1032.1,
+          219.6
+        ],
+        [
+          898.9,
+          220.46
+        ],
+        [
+          898.9,
+          172.57
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass15",
+      "category": "area",
+      "polygonPixels": [
+        [
+          190.8,
+          450.2
+        ],
+        [
+          180.93,
+          486.5
+        ],
+        [
+          210.43,
+          487.86
+        ],
+        [
+          211.79,
+          449.21
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass16",
+      "category": "area",
+      "polygonPixels": [
+        [
+          1239.85,
+          123.22
+        ],
+        [
+          1267.09,
+          123.22
+        ],
+        [
+          1398.41,
+          580.74
+        ],
+        [
+          1397.71,
+          720.44
+        ],
+        [
+          1324.36,
+          722.54
+        ],
+        [
+          1302.71,
+          517.18
+        ],
+        [
+          1265.69,
+          514.38
+        ],
+        [
+          1266.39,
+          424.28
+        ],
+        [
+          1243.34,
+          422.18
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "parking3",
+      "category": "area",
+      "polygonPixels": [
+        [
+          771.85,
+          608.68
+        ],
+        [
+          771.15,
+          686.91
+        ],
+        [
+          793.5,
+          691.1
+        ],
+        [
+          794.2,
+          719.74
+        ],
+        [
+          1291.54,
+          724.63
+        ],
+        [
+          1289.44,
+          670.15
+        ],
+        [
+          1088.27,
+          666.66
+        ],
+        [
+          939.49,
+          665.26
+        ],
+        [
+          913.64,
+          665.96
+        ],
+        [
+          913.64,
+          629.64
+        ],
+        [
+          886.4,
+          627.54
+        ],
+        [
+          806.77,
+          627.54
+        ],
+        [
+          806.77,
+          607.98
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass17",
+      "category": "area",
+      "polygonPixels": [
+        [
+          771.85,
+          498.32
+        ],
+        [
+          771.85,
+          591.22
+        ],
+        [
+          791.41,
+          591.92
+        ],
+        [
+          791.41,
+          526.26
+        ],
+        [
+          992.58,
+          521.37
+        ],
+        [
+          994.67,
+          501.11
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass18",
+      "category": "area",
+      "polygonPixels": [
+        [
+          611.89,
+          213.33
+        ],
+        [
+          611.19,
+          223.11
+        ],
+        [
+          888.5,
+          221.01
+        ],
+        [
+          887.8,
+          177.01
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "basketballField",
+      "category": "area",
+      "polygonPixels": [
+        [
+          518.99,
+          230.09
+        ],
+        [
+          515.5,
+          283.18
+        ],
+        [
+          603.51,
+          284.58
+        ],
+        [
+          604.21,
+          220.31
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass19",
+      "category": "area",
+      "polygonPixels": [
+        [
+          1065.92,
+          309.02
+        ],
+        [
+          1223.08,
+          309.02
+        ],
+        [
+          1223.08,
+          288.77
+        ],
+        [
+          1065.92,
+          288.77
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass20",
+      "category": "area",
+      "polygonPixels": [
+        [
+          1004.73,
+          415.74
+        ],
+        [
+          1005.56,
+          504.88
+        ],
+        [
+          1023.99,
+          504.88
+        ],
+        [
+          1023.99,
+          427.57
+        ],
+        [
+          1225.4,
+          425.92
+        ],
+        [
+          1225.4,
+          415.46
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass21",
+      "category": "area",
+      "polygonPixels": [
+        [
+          1036.65,
+          497.45
+        ],
+        [
+          1035.55,
+          514.79
+        ],
+        [
+          1248.23,
+          515.61
+        ],
+        [
+          1246.58,
+          495.25
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass22",
+      "category": "area",
+      "polygonPixels": [
+        [
+          807.15,
+          535.27
+        ],
+        [
+          805.84,
+          577.03
+        ],
+        [
+          903.39,
+          576.7
+        ],
+        [
+          902.41,
+          532.66
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "grass23",
+      "category": "area",
+      "polygonPixels": [
+        [
+          215.5,
+          341.69
+        ],
+        [
+          194.31,
+          434.47
+        ],
+        [
+          212.93,
+          435.43
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    },
+    {
+      "id": "Canteen",
+      "category": "area",
+      "polygonPixels": [
+        [
+          366.33,
+          308.76
+        ],
+        [
+          367.21,
+          323.74
+        ],
+        [
+          490.57,
+          324.18
+        ],
+        [
+          491.89,
+          309.65
+        ]
+      ],
+      "confidence": "manually_traced_not_surveyed",
+      "sourceImage": "HCMUT_generated_schematic_lowpoly_v2.png",
+      "notes": "Manual pixel-space outline"
+    }
+  ],
+  "markers": [
+    {
+      "id": "Entrance1",
+      "category": "entrance",
+      "positionPixels": [
+        166,
+        492.3
+      ],
+      "confidence": "rough_manual_seed_needs_tracing"
+    },
+    {
+      "id": "Entrance2",
+      "category": "entrance",
+      "positionPixels": [
+        775.3,
+        724.6
+      ],
+      "confidence": "rough_manual_seed_needs_tracing"
+    },
+    {
+      "id": "Entrance3",
+      "category": "entrance",
+      "positionPixels": [
+        1302.7,
+        718.8
+      ],
+      "confidence": "rough_manual_seed_needs_tracing"
+    }
+  ]
+}

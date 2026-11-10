@@ -1,0 +1,7 @@
+local Hint = require(game.ServerScriptService.FNABKServer.RescueHint)
+assert(Hint.current(false, true, true, false, "Day"):find("remaining rescue stations"))
+assert(Hint.current(true, true, true, false, "Day"):find("send the signal"))
+assert(Hint.current(true, true, true, true, "Night"):find("fifth night"))
+assert(Hint.current(true, true, true, true, "RescueWait"):find("approaches"))
+assert(Hint.current(true, true, true, true, "Boarding"):find("board"))
+print("Rescue hint checks passed")

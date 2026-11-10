@@ -1,0 +1,12 @@
+-- Studio Play server: exercise clock cancellation through the runtime event.
+local Clock = require(game.ServerScriptService.FNABKServer.SurvivalClock)
+local events = game.ServerScriptService:FindFirstChild("SurvivalEvents", true)
+assert(events and events:IsA("BindableEvent"))
+local clock = Clock.new()
+Clock.advance(clock, 5340 + 35)
+assert(Clock.signal(clock))
+local emitted = Clock.advance(clock, 1)
+assert(#emitted == 1 and emitted[1] == "WaveCanceled:1")
+events:Fire(emitted[1])
+assert(#Clock.advance(clock, 239) == 1 and clock.phase == "Boarding")
+print("Wave cancellation dispatch check passed")

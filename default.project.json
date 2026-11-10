@@ -16,6 +16,10 @@
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src/character"
+      },
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "FNABKClient": {

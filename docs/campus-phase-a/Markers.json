@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "coordinateUnits": "meters in CampusManifest coordinate system",
+  "status": "PROVISIONAL_ESTIMATED_GAMEPLAY_ANCHORS",
+  "markers": [
+    { "id": "Gate1", "group": "Mission", "markerType": "Gate", "positionMeters": [63.5, 195.0], "confidence": "entrance_1_interpreted_as_gate1; location_adjusted_to_west_gate_route; confirm with owner" },
+    { "id": "Spawn", "group": "Mission", "markerType": "Spawn", "positionMeters": [78.0, 195.0], "confidence": "estimated_on_west_gate_route" },
+    { "id": "Exit", "group": "Mission", "markerType": "Exit", "positionMeters": [55.0, 195.0], "confidence": "estimated_outside_west_gate" },
+    { "id": "A3", "group": "Mission", "markerType": "ObjectiveBuilding", "positionMeters": [486.0, 44.0], "confidence": "building_label_verified_from_map; footprint_estimated" },
+    { "id": "Library", "group": "Mission", "markerType": "ObjectiveBuilding", "positionMeters": [294.0, 131.0], "confidence": "A2_library_location_supported_by_directory; footprint_estimated" },
+    { "id": "B4", "group": "Mission", "markerType": "ObjectiveBuilding", "positionMeters": [180.0, 184.0], "confidence": "building_label_verified_from_map; footprint_estimated" },
+    { "id": "CrateStart", "group": "Mission", "markerType": "PuzzleProp", "positionMeters": [478.0, 43.0], "confidence": "estimated_within_A3" },
+    { "id": "PressurePlate", "group": "Mission", "markerType": "PuzzleTarget", "positionMeters": [501.0, 45.0], "confidence": "estimated_within_A3" },
+    { "id": "Generator", "group": "Mission", "markerType": "PuzzleProp", "positionMeters": [180.0, 184.0], "confidence": "estimated_within_B4" },
+    { "id": "FuseSpawn", "group": "Mission", "markerType": "Pickup", "positionMeters": [168.0, 178.0], "confidence": "estimated_within_B4" },
+    { "id": "NPCSpawn01", "group": "NPCSpawns", "markerType": "NPCSpawn", "positionMeters": [282.0, 123.0], "confidence": "estimated_inside_A2_library" },
+    { "id": "NPCSpawn02", "group": "NPCSpawns", "markerType": "NPCSpawn", "positionMeters": [294.0, 123.0], "confidence": "estimated_inside_A2_library" },
+    { "id": "NPCSpawn03", "group": "NPCSpawns", "markerType": "NPCSpawn", "positionMeters": [306.0, 123.0], "confidence": "estimated_inside_A2_library" },
+    { "id": "MimicSpawn01", "group": "MimicSpawns", "markerType": "MimicSpawn", "positionMeters": [300.0, 142.0], "confidence": "estimated_inside_A2_library" },
+    { "id": "MimicSpawn02", "group": "MimicSpawns", "markerType": "MimicSpawn", "positionMeters": [198.0, 188.0], "confidence": "estimated_near_B4" },
+    { "id": "MimicSpawn03", "group": "MimicSpawns", "markerType": "MimicSpawn", "positionMeters": [495.0, 52.0], "confidence": "estimated_near_A3" }
+  ]
+}
